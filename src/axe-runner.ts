@@ -15,7 +15,7 @@ export const run = (webContents: Electron.WebContents) => {
 
 const scan = () => {
     axe.run().then(results => {
-        console.log(`found ${results.violations.length} a1yy issues: `, results.violations);
+        console.log(`found ${results.violations.length} a11y issues: `, results.violations);
 
         results.violations.forEach(elem => {
             elem.nodes.forEach(node => {
