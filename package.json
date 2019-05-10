@@ -1,0 +1,21 @@
+{
+  "name": "electron-axe-scanner-poc",
+  "version": "1.0.0",
+  "description": "A proof-of-concept app for injecting axe and scanning for a11y issue on a web page hosted on an electron BrowserWindow",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "start": "electron ./dist/main.js"
+  },
+  "keywords": [
+    "electron",
+    "axe",
+    "poc"
+  ],
+  "author": "smoralesd",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^5.0.1",
+    "typescript": "^3.4.5"
+  }
+}
