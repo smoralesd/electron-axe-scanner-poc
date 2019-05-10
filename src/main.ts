@@ -12,7 +12,7 @@ const createWindow = () => {
         mainWindow.maximize();
         mainWindow.show();
 
-        mainWindow.webContents.openDevTools();
+        mainWindow.webContents.openDevTools({mode: "detach"});
 
         inject(mainWindow.webContents);
 
